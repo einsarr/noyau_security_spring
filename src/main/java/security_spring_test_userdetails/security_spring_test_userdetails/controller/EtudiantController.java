@@ -16,7 +16,7 @@ public class EtudiantController {
     }
     @RequestMapping("/all")
     public String all(){
-        return "login";
+        return "all";
     }
     @RequestMapping("/add")
     public String add(){
